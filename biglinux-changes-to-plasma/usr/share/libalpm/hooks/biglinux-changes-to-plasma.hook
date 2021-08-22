@@ -1,0 +1,11 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = biglinux-changes-to-plasma
+Target = lsb-release
+
+[Action]
+Description = Change files from plasma
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/biglinux-changes-to-plasma

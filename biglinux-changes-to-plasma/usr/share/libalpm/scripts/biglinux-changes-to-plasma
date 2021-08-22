@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sed -i 's|PlasmaCore.Units.gridUnit * 26 * 1.5|PlasmaCore.Units.gridUnit * 32 * 1.5|g;s|PlasmaCore.Units.gridUnit * 30|PlasmaCore.Units.gridUnit * 34|g' /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/FullRepresentation.qml
